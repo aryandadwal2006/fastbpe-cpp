@@ -82,10 +82,10 @@ The implementation is designed to be:
 
 **Training on `tinyshakespeare.txt` with 5000 merges**
 
-| Implementation | Mean time |
-|---------------|-----------|
-| fastbpe-cpp   | ~110 ms   |
-| HuggingFace Rust tokenizer | ~233 ms |
+|      Implementation        | Mean time |
+|----------------------------|-----------|
+| fastbpe-cpp                | ~110 ms   |
+| HuggingFace Rust tokenizer | ~233 ms   |
 
 **~2.1× faster** on this workload.
 
