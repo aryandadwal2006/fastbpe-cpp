@@ -1,6 +1,6 @@
 # fastbpe-cpp
 
-A **high-performance, byte-level BPE (Byte Pair Encoding) tokenizer** written in C++ with a focus on **speed, cache locality, and minimal abstraction overhead**.
+This is a **high-performance, byte-level BPE (Byte Pair Encoding) tokenizer** written in C++ with a focus on **speed, cache locality, and minimal abstraction overhead**.
 
 This project implements the *core BPE algorithm* from first principles and is optimized for fast training on large corpora. In benchmarks, it outperforms HuggingFace’s Rust tokenizer for the same workload.
 
