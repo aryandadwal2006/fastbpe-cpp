@@ -35,7 +35,7 @@ This makes it ideal as:
 - No regex, no JSON, no Python dependency in the core
 
 
-## What it does **not** do (by design)
+## What it does **not** do (by design) *yet ;)
 
 This is intentionally **not** a full replacement for production tokenizers like `tokenizers`, `tiktoken`, or `sentencepiece`.
 
